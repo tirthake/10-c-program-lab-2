@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+ //Write a program in C to display the cube of the number up to an integer.
+
+int number,i;
+printf("enter the value of terms:");
+scanf("%d",&number);
+
+for (i=1; i<=number; i++)
+{
+    printf("number is :%d and the cube of %d is :%d\n",i,i,(i*i*i));
+}
