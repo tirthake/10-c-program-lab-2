@@ -1,13 +1,13 @@
-#include<stdio.h>
+
+#include <stdio.h>
 int main()
 {
-    printf("Write a program in C to display the first 10 natural numbers.\n");
-
-    int i;
+    int i,sum=0;
     for (i=1; i<=10; i++)
     {
-        printf("%d\t",i);
-
+        printf(" 1st 10 natural number is :%d\t",i);
+        sum= sum+i;
     }
+    printf("\n the sum is:%d",sum);
     return 0;
 }
