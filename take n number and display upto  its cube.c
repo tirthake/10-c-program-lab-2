@@ -11,3 +11,5 @@ for (i=1; i<=number; i++)
 {
     printf("number is :%d and the cube of %d is :%d\n",i,i,(i*i*i));
 }
+return 0;
+}
