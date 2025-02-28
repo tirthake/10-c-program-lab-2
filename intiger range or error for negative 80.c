@@ -1,12 +1,9 @@
 #include<stdio.h>
 int main()
 {
-// Check integer range or error for negative > 80
+
     /*Write a C program that reads an integer and checks the specified range to which it belongs.
      Print an error message if the number is negative and greater than 80*/
-    char choice='y';
-    while(choice=='y'|| choice=='Y')
-    {
 
 
         int value;
@@ -38,8 +35,6 @@ int main()
             printf("ERROR 404\n");
         }
 
-        printf(" CHEAKING ANOTHER VALUE? \n type [y/Y] for continue:");
-        scanf(" %c",&choice);
-    }
+
     return 0;
 }
