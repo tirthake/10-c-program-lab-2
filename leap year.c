@@ -12,7 +12,7 @@ int main()
         printf("leap year");
     else
         printf("not leap year");
-//ssukcessssssssssssss
+
 
  getch();
 }
